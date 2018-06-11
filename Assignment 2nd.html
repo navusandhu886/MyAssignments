@@ -1,0 +1,56 @@
+!DOCTYPE html>
+<html>
+<head>
+<title> Lab 1 </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#animate").click(function(){
+        $("div").animate({left: '250px',background: '#FF0000'});
+		
+    });
+	
+	$("#animateBack").click(function(){
+        $("div").animate({left: '0px',background: '#98bf21'});
+		
+    });
+	
+	$("#drink").click(function(){
+        $("p").css("color", "red").slideUp(2000).slideDown(2000);
+    });
+	
+	
+	$("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+</script> 
+</head>
+<body>
+<button id="animate">Start Animation</button>
+<button id="animateBack">Rewind</button>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="drink">Drink</button>
+
+<p>Lab 1</p>
+<br> <br> 
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> <br> <br> <br> <br> 
+<h1> Amandeep Kaur Sandhu </h2>
+<h2> Id - C0705544 </h2>
+<h3> Current Study </h3>
+<h4> emerging technologies </h4>
+<p> i am studying computer programming in Lambton College, Mississauga,ON </p>
+<h3> My Hobbies </h3>
+
+<p>
+I have keen interest to play outdoor games. Sometimes  i like to read books and get latest knowledge. These activities help me for bieng active and smart.
+</p>
+<img src = "\\file02.campus.loc\sf$\705544\Desktop\Amandeep.jpg" width= 300; height= 300; >
+</body>
